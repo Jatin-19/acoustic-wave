@@ -6,7 +6,7 @@ clc;
 
 tic
 
-N=6; % number of robots
+N=7; % number of robots
 
 
 %% Initialize 
@@ -50,6 +50,11 @@ y(6)     = -7;
 theta(6) =  90*pi/180;
 v(6) = 3.5;
 
+% 7th robot
+x(7)     =  5;
+y(7)     = -7;
+theta(7) =  90*pi/180;
+v(7) = 3.5;
 
 
 % Note: In MATLAB, it is recommended to do calculations in matrix
